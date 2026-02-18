@@ -19,7 +19,7 @@ checkpoints/
 
 ```
 
-the `/path/to/your/ckpt` can be both `.pth folder` or `.pt file`
+the `/path/to/your/ckpt` can be both `.pth folder` or `.pt file`, if you want only final model state please download `model.pt` directly in 🤗[deepgenteam/DeepGen-1.0](https://huggingface.co/deepgenteam/DeepGen-1.0) , it is same as `MR-GDPO_final.pt`
 
 # Text-to-Image
 
