@@ -65,6 +65,8 @@ conda create -n deepgen python=3.10 -y
 conda activate deepgen
 pip install -r requirements.txt
 pip install flash_attn==2.8.3 --no-build-isolation
+pip install xtuner==0.2.0
+pip install transformers==4.56.1
 ```
 ### Data Prepare
 Please See [DATA](DATA.md) for more details. We provide a detailed description of the data download and usage procedures for both the Pre-traning stage and the Supervised Fine-Tuning stage.
