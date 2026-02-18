@@ -150,4 +150,4 @@ xxhash==3.5.0
 yapf==0.43.0
 yarl==1.20.0
 zipp==3.21.0
-flash_attn==2.8.3
+
