@@ -68,6 +68,7 @@ pip install flash_attn==2.8.3 --no-build-isolation
 pip install xtuner==0.2.0
 pip install transformers==4.56.1
 pip install triton==2.3.0
+pip install -U opencv-python-headless
 ```
 ### Data Prepare
 Please See [DATA](DATA.md) for more details. We provide a detailed description of the data download and usage procedures for both the Pre-traning stage and the Supervised Fine-Tuning stage.
