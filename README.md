@@ -75,37 +75,6 @@ Please See [DATA](DATA.md) for more details. We provide a detailed description o
 
 ### Inference
 
-
-
-**Text-to-Image:**
-```python
-import torch
-from diffusers import DiffusionPipeline
-
-pipe = DiffusionPipeline.from_pretrained(
-    "deepgenteam/DeepGen-1.0-diffusers",
-    torch_dtype=torch.bfloat16,
-    trust_remote_code=True,
-)
-pipe.enable_model_cpu_offload() # Optional
-
-result = pipe("a racoon holding a shiny red apple over its head",
-              height=512, width=512, num_inference_steps=50, guidance_scale=4.0, seed=42)
-result.images[0].save("output.png")
-```
-
-**Image Editing:**
-```python
-from PIL import Image
-
-result = pipe("Place this guitar on a sandy beach with sunset in the background.",
-              image=Image.open("guitar.png"), height=512, width=512,
-              num_inference_steps=50, guidance_scale=4.0, seed=42)
-result.images[0].save("edited.png")
-```
-
-#### Native Pipeline
-
 Please refer to [INFERENCE](INFERENCE.md) for the native pipeline usage.
 
 ### Train
