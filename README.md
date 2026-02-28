@@ -79,7 +79,7 @@ Please refer to [INFERENCE](INFERENCE.md) for the native pipeline usage.
 
 ### Train
 
-See [TRAIN](TRAIN.md) for more details. We provide a detailed description of the data download and usage procedures for both the pretraining stage and the SFT stage.
+See [TRAIN](TRAIN.md) for more details. We provide a detailed description of the model and training configs for both the Pre-traning stage and the Supervised Fine-Tuning stage.
 
 ### Eval
 We provide the scripts for evaluating wide range of T2I and Editing benchmarks. Please See [EVAL](EVAL.md) for more details.
