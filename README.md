@@ -75,12 +75,7 @@ Please See [DATA](DATA.md) for more details. We provide a detailed description o
 
 ### Inference
 
-#### Diffusers
 
-```bash
-pip install torch diffusers transformers safetensors einops accelerate
-pip install flash-attn --no-build-isolation  # optional but recommended
-```
 
 **Text-to-Image:**
 ```python
