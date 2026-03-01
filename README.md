@@ -80,10 +80,7 @@ Please See [DATA](DATA.md) for more details. We provide a detailed description o
 
 We provide a diffusers-compatible format at 🤗[deepgenteam/DeepGen-1.0-diffusers](https://huggingface.co/deepgenteam/DeepGen-1.0-diffusers).
 
-```bash
-pip install torch diffusers transformers safetensors einops accelerate huggingface_hub
-pip install flash-attn --no-build-isolation  # optional but recommended
-```
+
 
 **Text-to-Image:**
 
