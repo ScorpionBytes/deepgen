@@ -4,13 +4,7 @@
 
 We provide a diffusers-compatible format at 🤗[deepgenteam/DeepGen-1.0-diffusers](https://huggingface.co/deepgenteam/DeepGen-1.0-diffusers). This is a self-contained pipeline that **does not require cloning the DeepGen repository**.
 
-### Installation
 
-```bash
-pip install torch diffusers transformers safetensors einops accelerate huggingface_hub
-# Flash Attention (recommended)
-pip install flash-attn --no-build-isolation
-```
 
 ### Load Pipeline
 
