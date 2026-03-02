@@ -32,7 +32,7 @@ Shanghai Innovation Institute, DeepGen Team
 
 ## 🔥 News
 - **Feb 13, 2026:** We released **DeepGen 1.0**, Pre-traning, Supervised Fine-Tuning and Reinforcement Learning checkpoints can be found in [Huggingface](https://huggingface.co/deepgenteam/DeepGen-1.0), support both T2I generation and image editing.
-- **Feb 13, 2026:** We released the training code support Pre-traning, Supervised Fine-Tuning, Reinforcement Learning(deepgen_rl) and evaluation code support wide range of benchmarks.
+- **Feb 13, 2026:** We released the training code support Pre-training, Supervised Fine-Tuning, [Reinforcement Learning](https://github.com/deepgenteam/deepgen_rl) and evaluation code support wide range of benchmarks.
 - **Feb 13, 2026:** We released the **DeepGen 1.0** technical report on [Arxiv](http://arxiv.org/abs/2602.12205)
 
 
